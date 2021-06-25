@@ -1,0 +1,5 @@
+<input type="text" [style.background]="back" [(ngModel)]="back" (mouseEnter)='changeColor("blue")' (focus)='changeColor("red")' (blur)='changeColor("gray")' (copy)='changeColor("green")' #inputChange>
+
+<button (click)="changeOpa(inputChange)">Alt 1</button>
+<button (click)="changeSize(inputChange)">Alt 2</button>
+<button (mouseenter)="rotate(inputChange)">Alt 3</button>

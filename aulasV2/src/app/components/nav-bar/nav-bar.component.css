@@ -1,3 +1,14 @@
 .active {
     color: orangered!important;
 }
+.bg-light{
+  background-color: rgba(0, 0, 0, 0.80)!important;
+}
+
+.navbar-toggler{
+  color:white!important;
+}
+
+a:hover{
+  color:orangered!important;
+}

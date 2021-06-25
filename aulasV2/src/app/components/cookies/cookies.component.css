@@ -1,0 +1,18 @@
+.mainCookie{
+  height: 25vh;
+  width: 100%;
+  background-color: orangered;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  align-content:space-around;
+  justify-content: space-around;
+
+  animation: upup 2s;
+}
+
+@keyframes upup{
+  from {bottom: -25vh;}
+  to {bottom: 0;}
+}
